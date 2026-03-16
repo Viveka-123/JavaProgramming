@@ -1,4 +1,4 @@
-package ClassObjectMethod;
+ package ClassObjectMethod;
 
 public class Student 
 {
@@ -10,4 +10,19 @@ public class Student
 	{
 		System.out.println(Sid+" "+Sname+" "+School);
 	}
+	
+	void setdata(int id, String name, String nSchool)
+	{
+		Sid=id;
+		Sname=name;
+		School=nSchool;
+	}
+	
+	Student(int id, String name, String nSchool)    ///Constructor
+	{
+		Sid=id;
+		Sname=name;
+		School=nSchool;
+	}
+
 }
